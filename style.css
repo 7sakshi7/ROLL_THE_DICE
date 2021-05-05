@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #c7365f;
+}
+#initial-box{
+    position: absolute;
+    /* border: 2px solid wheat; */
+    width: 36rem;
+    height: 36rem;
+    left: 28rem;
+    top: 5rem;
+    padding: 10px 41px;
+    background: #b56a7f57;
+    box-shadow: -14px 14px 22px -6px rgba(0,0,0,0.7);
+    border-radius: 23px;
+    /* display: none; */
+}
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+    position: relative;
+    /* left: 1rem; */
+    font-size: 20px;
+    top: 2rem;
+}
+#start{
+    padding: 10px 20px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 23px;
+    left: 17rem;
+    top: 29rem  ;
+}
+#game-conatiner{
+    width: 56rem;
+    height: 35rem;
+    position: absolute;
+    left: 18rem;
+    top: 5rem;
+    /* border: 2px solid; */
+    box-shadow: -14px 14px 22px -6px rgba(0,0,0,0.7);
+    border-radius: 23px;
+    overflow: hidden;
+    display: none;
+}
+#player1{
+    /* border: 2px solid; */
+    position: absolute;
+    height: 35rem;
+    width: 28rem;
+    background: #e289a2;
+}
+
+#player2{
+    /* border: 2px solid; */
+    position: absolute;
+    height: 35rem;
+    width: 28rem;
+    left: 28rem;
+    top: 0rem;
+}
+
+#player1-h2{
+    position: absolute;
+    color: white;
+    top: 2rem;
+    left: 9rem;
+    font-size: 34px;
+}
+#player2-h2{
+    position: absolute;
+    color: white;
+    top: 2rem;
+    left: 9rem;
+    font-size: 34px;
+}
+#player1-score{
+    left: 10rem;
+
+}
+#player2-score{
+    left: 11rem;
+
+}
+.score{
+    position: absolute;
+    /* border: 2px solid; */
+    color: thistle;
+    font-size: 67px;
+    top: 7rem;
+    /* left: 10rem; */
+    padding: 10px 20px;
+}
+
+.btn{
+    position: absolute;
+    padding: 31px 30px;
+    font-size: 23px;
+    top: 20rem;
+    left: 8rem;
+    background: #c80b6b;
+    border-radius: 23px;
+    border: 0;
+    outline: 0;
+}
+#btn1-text{
+    padding-top: 7px;
+    color: aliceblue;
+    height: 42px;
+    font-size: 50px;
+    /* border: 2px solid sienna; */
+}
+#btn2-text{
+    padding-top: 7px;
+    color: aliceblue;
+    height: 42px;
+    font-size: 50px;
+    /* border: 2px solid sienna; */
+}
+#center-btns{
+    position: absolute;
+    left: 23rem;
+    width: 10rem;
+    height: 35rem;
+    /* border: 2px solid; */
+}
+.samebtn2{
+    padding: 10px 21px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 33px;
+    border-radius: 22px;
+    border: 0;
+    outline: 0;
+    background: #ddabb9;
+
+}
+#play{
+    top: 29px;
+    z-index: 1;
+}
+#hold{
+    top: 25rem;
+    z-index: 1;
+}
+.samebtn{
+    padding: 10px 21px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 2px;
+    border-radius: 23px;
+    border: 0;
+    outline: 0;
+    background: #ddabb9;
+   
+}
+#newgame{
+    top: 29px;
+    display: none;
+    z-index: 1;
+}
+#roll{
+    top: 21rem;
+    left: 11px;
+    z-index: 1;
+}
+
+#dice{
+    z-index: 1;
+    position: absolute;
+    width: 106px;
+    top: 9rem;
+    text-align: center;
+    left: 1.3rem;
+    height: 86px;
+    background: #242323;
+    color: white;
+    padding-top: 17px;
+    font-size: 55px;
+    box-shadow: -4px 3px 10px rgb(255 255 255 / 90%);
+    display: none;
+}
+
+#winner{
+    height: 153px;
+    width: 233px;
+    position: absolute;
+    top: 10rem;
+    font-size: 25px;
+    color: white;
+    left: 21rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    display: none;
+}

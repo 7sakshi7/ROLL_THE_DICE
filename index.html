@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="initial-box">
+        <h1>Rules</h1>
+        <p> 1. Welcome to this amazing game!!!!</p><br>
+        <p> 2. Click on play button to start the game.</p><br>
+        <p> 3. Roll the dice, if dice rolls to 1 then the turn will change and your current score for that turn becomes zero.</p><br>
+        <p> 4. To avoid this situation try to hold your score and pass the turn.</p><br>
+        <p> 5. Whosever score reaches to 50 first will win the game</p><br>
+        <p> 6. You can restart the game if you want to.</p><br>
+        <p> 7. If your current score becomes greater than or equal to 50,then just click on hold.</p><br>
+        <p> So Are you ready to play!!!!</p><br>
+        <button id="start">START</button>
+    </div>
+    <div id="game-conatiner">
+        <div id="player1">
+            <h2 id="player1-h2">PLAYER 1</h2>
+            <div class="score" id="player1-score">0</div>
+            <button class="btn" id="player1-btn">CURRENT <div id="btn1-text">0</div></button>
+        </div>
+       
+        <div id="center-btns">
+            <button id="play" class="samebtn2">PLAY</button>
+            <button id="newgame" class="samebtn">NEW GAME</button>
+           <div id="dice">0</div>
+            <button id="roll"class="samebtn">ROLL DICE</button>
+            <button id="hold"class="samebtn2">HOLD</button>
+        </div>
+
+        <!-- </div> -->
+        <div id="player2">
+            <h2 id="player2-h2">PLAYER 2</h2>
+            <div class="score" id="player2-score">0</div>
+            <button class="btn" id="player2-btn">CURRENT<div id="btn2-text">0</div></button>
+        </div>
+
+        <div id="winner"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
